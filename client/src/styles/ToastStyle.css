@@ -1,0 +1,42 @@
+.add-to-cart-toast {
+    background: #4CAF50 !important;
+    color: white !important;
+    border-radius: 50% !important;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.order-success-toast {
+    background: #4CAF50 !important;
+    color: white !important;
+    border-radius: 50% !important;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    text-align: center;
+}
+
+.order-failure-toast {
+    background: red !important;
+    color: white !important;
+    border-radius: 50% !important;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    text-align: center;
+}
+
+.order-cancel-toast {
+    background: rgb(255, 145, 0) !important;
+    color: white !important;
+    border-radius: 50% !important;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    text-align: center;
+}

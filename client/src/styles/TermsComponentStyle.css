@@ -1,0 +1,11 @@
+h2.conditions-header {
+	color: #222;	
+}
+.agreements-wrapper {
+	padding: 2em;
+}
+
+.agreements-wrapper > .agreement-item {
+	padding: .5em;
+	color: #222;
+}

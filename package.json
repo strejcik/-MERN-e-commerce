@@ -1,0 +1,38 @@
+{
+  "name": "digitalworld-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "connect-mongo": "^2.0.3",
+    "cors": "^2.8.5",
+    "ddos": "^0.2.1",
+    "dotenv-extended": "^2.3.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "intl-currency": "^1.3.0",
+    "jsonwebtoken": "^8.5.0",
+    "jwt-decode": "^2.2.0",
+    "locale-currency": "0.0.2",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.7",
+    "nodemon": "^1.18.10",
+    "npm-run-all": "^4.1.5",
+    "paypal-rest-sdk": "^1.8.1",
+    "request": "^2.88.0",
+    "uuid": "^3.3.2",
+    "validator": "^10.11.0",
+    "yarn": "^1.13.0"
+  },
+  "scripts": {
+    "start": "concurrently \"npm:server\" \"npm:client\"",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "install-server": "npm install",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "cd client && yarn && yarn run build"
+  }
+}

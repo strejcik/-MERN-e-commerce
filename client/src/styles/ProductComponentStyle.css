@@ -1,0 +1,63 @@
+.product-list-wrapper {
+	
+}
+
+.product-wrapper{
+	width: 100%;
+   	margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.product-wrapper .card-content .card-title {
+	height: 55px;
+	position: relative;
+	text-align: center;
+}
+
+.product-wrapper .card-content .card-title .qty-badge {
+	position: absolute;
+	top: -20px;
+    right: -20px;
+}
+
+.product-wrapper .card-content .card-body {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.product-wrapper .card-content .card-body img {
+	width: 100%;
+}
+
+.product-wrapper .price-content {
+	line-height: 0;
+}
+
+.product-wrapper .price-content .product-price {
+	font-size: 24px;
+    line-height: 20px;
+    float: right;
+}
+
+.product-wrapper .card-action {
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper .card-content .card-title {
+		font-size: 24px;
+	}
+	.product-wrapper .price-content .product-price {
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.product-wrapper .card-content .card-title {
+		font-size: 20px;
+	}
+	.product-wrapper .price-content .product-price {
+		font-size: 18px;
+	}
+}

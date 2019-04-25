@@ -1,0 +1,9 @@
+footer {
+	background: #34495E !important;
+}
+
+.footer-link-wrapper {
+	text-align: center;
+	background: #222 !important;
+	border: 1px solid white;
+}

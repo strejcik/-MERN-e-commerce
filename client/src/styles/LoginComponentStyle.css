@@ -1,0 +1,10 @@
+.login-wrapper {
+	min-height: 50vh;
+}
+
+.alert-success {
+	color: green;
+}
+.alert-danger {
+	color: red;
+}

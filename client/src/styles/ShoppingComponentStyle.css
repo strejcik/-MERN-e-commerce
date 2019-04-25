@@ -1,0 +1,26 @@
+table.highlight > tbody > tr:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  background: white;
+}
+.cart-table td {
+	width: 300px !important;
+}
+.cart-table th {
+	width: 300px !important;
+}
+.cart-table.table-responsive {
+   display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.totals-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.totals-wrapper > .total-item {
+  color: darkgoldenrod;
+}
